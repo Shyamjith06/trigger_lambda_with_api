@@ -6,7 +6,7 @@ on:
       - main 
 jobs:
   scale_asg:
-    runs-on: codebuild-new-runner-${{ github.run_id }}-${{ github.run_attempt }} 
+    runs-on: codebuild-ddasd-${{ github.run_id }}-${{ github.run_attempt }} 
     steps:
       - name: clone repo
         uses: action/checkout@v3
