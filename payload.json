@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "xbrl",
+    "min_size": 2,
+    "max_size": 6,
+    "desired_capacity": 3
+  },
+  {
+    "Name": "demo-asg-lambda",
+    "min_size": 1,
+    "max_size": 6,
+    "desired_capacity": 2
+  }
+]
