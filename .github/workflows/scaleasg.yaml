@@ -1,6 +1,9 @@
 name: scale asg
 on:
   workflow_call:
+  push:
+    branches:
+      - main 
 jobs:
   scale_asg:
     runs-on: codebuild-new-runner-${{ github.run_id }}-${{ github.run_attempt }} 
